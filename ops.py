@@ -35,8 +35,11 @@ class DataTransformation:
         print("Showing the first 2 rows of the DataFrame:")
         self.df.show(2)
 
-        selected_columns = ["genre", "minInstalls", "ratings"]
-        numerical_columns = ["minInstalls", "ratings"]
+        selected_columns = ["genre", "minInstalls", "ratings", "adSupported", "reviews", "score",
+                    
+                            "dateUpdated", "free", "price", "releasedDay", "releasedYear", "releasedMonth"]
+        numerical_columns = ["minInstalls", "ratings", "reviews", "score", "price", "releasedDay", "releasedYear",
+                             "adSupported", "free"]
 
         all_combinations = []
         for r in range(1, len(selected_columns) + 1):

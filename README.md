@@ -47,3 +47,11 @@ only showing top 20 rows
 
 But due to Spark is encountering a situation where it would typically spill data to disk (temporary storage) because it can't fit everything in memory, I was not able to geterate the complete excel,
 the insights are coming correct
+
+
+
+
+Steps:
+1. Create a Virtual Environment and activate it
+2. Install all modules from requirement.txt
+3. As the code is written in a modular and scalable way, so run the main.py in the Scripts folder
